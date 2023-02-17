@@ -1,0 +1,355 @@
+/* RESOURCES */
+/* Purple color:  #30407E 
+Gold color: #EBEE6B
+Black color: #0d0d0d */
+
+/* .navbar-header {
+  float: left;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+}
+.navbar-brand {float:none;} */
+
+/* #content {
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	             0px 8px 13px rgba(0,0,0,0.1),
+	             0px 18px 23px rgba(0,0,0,0.1);
+	z-index: 1;
+	position: relative;
+} */
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+body { 
+	/* background-size: cover;
+	background-position: center; */
+	font-family: 'Lato', sans-serif;
+  background-color: #555;
+  color: #f2f2f2;
+  overflow-x: hidden;
+}
+
+.blog-link:link,
+.blog-link:visited {
+  text-decoration: none;
+  color: #30407E;
+  transition: color 0.2s;
+}
+
+.blog-link:hover,
+.blog-link:active {
+  color: #EBEE6B;
+}
+
+h2 {
+  font-size: 40px;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.card-body {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+hr {
+	border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  background-color: #EBEE6B;
+  width: 300px;
+}
+
+.about-hr {
+  width: 300px;
+  margin-bottom: 40px;
+}
+
+#capitalize-title {
+  margin-left: 10px;
+  color: #EBEE6B !important;
+}
+
+.logo {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 64px;
+}
+
+#home-section {
+    background: url(../img/pexels-victor-freitas-791763.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background-color: rgba(0,0,0,0.4);
+}
+
+#header-text {
+    margin-top: 300px;
+}
+
+.btn {
+	text-shadow: none;
+}
+
+.navbar {
+    font-size: 24px;
+}
+
+.nav li {
+	font-size: 20px;
+}
+
+/* .navbar-brand {
+  font-size: 24px !important;
+  color: #EBEE6B !important; 
+} */
+
+#header-text {
+  padding-bottom: 20px;
+}
+
+.fitness-card {
+  background-color: #30407E;
+}
+
+.main-icon {
+  color: #30407E;
+}
+
+#home-icons {
+  background-color: #0d0d0d;
+}
+
+#about-section {
+  background-color: #1a1a1a;
+}
+
+#accordion .card {
+  background-color: #1a1a1a;
+}
+
+#accordion .fa-arrow-circle-down {
+  padding-right: 8px;
+  color: #30407E;
+}
+
+#accordion .accordion-cursor:hover {
+  cursor: pointer;
+}
+
+.info-header img {
+  width: 500px;
+  height: 333px;
+  border: 3px solid #1a1a1a;
+  border-radius: 50%;
+}
+
+#blog-body {
+  background-color: #1a1a1a;
+}
+
+#blog-header {
+  height: 200px;
+  background: url('../img/panorama_night_sky.jpg');
+  background-position: 0 -330px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  /* border-bottom: 1px #eee solid; */
+  padding-top: 50px;
+} 
+
+#blog .card {
+  border: none;
+}
+
+#explore-head-section {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/weights_on_floor_2.jpg);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+#create-section {
+  background-color: #1a1a1a;
+}
+
+#create-section .align-self-end {
+  font-size: 19px;
+}
+
+#create-section p {
+  font-size: 19px;
+}
+
+#meet-section {
+  background-color: #1a1a1a;
+}
+
+#meet-section img {
+  border: none;
+ border-radius: none;
+ padding-bottom: 50px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.card .bg-dark {
+  padding: none;
+  margin: none;
+}
+
+#categories {
+  color: #1a1a1a;
+}
+
+#contact-container form {
+  margin-bottom: 3rem;
+}
+
+@media(max-width:767px) {
+  #gallery img {
+    height: 400px; 
+    width: 500px;
+  }
+}
+
+#meet-section ul {
+  list-style-type: none;
+}
+
+#meet-section i {
+  color: #30407E;
+}
+
+#meet-section span {
+  font-size: 26px;
+}
+
+#meet-icons {
+  padding-top: 100px;
+  font-size: 26px;
+}
+
+#main-footer {
+  background: #000;
+  color: #fff; 
+}
+
+#main-footer p {
+  font-size: 20px;
+}
+
+.action-text {
+  padding: 150px 0;
+}
+
+#action-section {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/women_yoga.jpg);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+
+#div-aos {
+  display: inline;
+}
+
+#contact {
+  background-color: #1a1a1a;
+}
+
+#contact-container #get-in-touch {
+  margin: 3rem 0;
+}
+
+#gallery {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.fixed-top.scrolled {
+  background-color: #0d0d0d !important;
+  transition: background-color 300ms linear;
+  height: 120px;
+}
+
+#other-navs {
+  background-color: #0d0d0d !important;
+  height: 120px;
+}
+
+/* @media only screen and (max-width: 767px) {
+  #home-section {
+    background: url(../img/young-woman-2699780_960_720.jpg);
+    background-position: -50px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.home-inner {
+  animation-duration: 5s;
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fa-facebook:hover,
+.fa-facebook:active {
+    color: #3b5998 !important;
+ }
+
+ .fa-twitter:hover,
+ .fa-twitter:active {
+    color: #1da1f2 !important;
+ }
+
+ .fa-instagram:hover,
+ .fa-instagram:active {
+    color: #c32aa3 !important;
+ }
+
+ .fa-facebook,
+ .fa-twitter,
+ .fa-instagram {
+     transition: color 0.2s;
+ }
+
+ @media(max-width:767px) {
+  #home-section {
+    background: url(../img/free_weights.jpg);
+    background-position: -5rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+ }
+}
+ 
